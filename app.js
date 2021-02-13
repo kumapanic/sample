@@ -7,7 +7,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 require("dotenv").config();
 
-console.log(NODE_ENV);
+console.log(process.env.NODE_ENV);
 
 var app = express();
 
